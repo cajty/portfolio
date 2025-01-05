@@ -8,6 +8,7 @@ const skills = [
     {
         name: 'Spring',
         category: 'Backend',
+
         icon: SpringIcon,
         featured: true
     },
