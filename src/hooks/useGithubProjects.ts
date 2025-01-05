@@ -21,7 +21,7 @@ export interface Repository {
 const REPOS_TO_FETCH = ['Farm_Management', 'Citronix', 'Banking-Security', 'IdeaAssembler',
     'baing_frontEnd_Angular', 'Bati-Cuisine', '-Evento'];
 const GITHUB_USERNAME = 'cajty';
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_TOKEN = process.env.VITE_GITHUB_TOKEN;
 
 export function useGithubProjects() {
     const [projects, setProjects] = useState<Repository[]>([]);
