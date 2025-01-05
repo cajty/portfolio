@@ -2,12 +2,13 @@ import { useState } from 'react';
 import { Container } from '../layout/Container';
 import { motion } from 'framer-motion';
 import { Filter, Star } from 'lucide-react';
+import SpringIcon from '../public/images_skills/springio-icon.svg';
 
 const skills = [
     {
         name: 'Spring',
         category: 'Backend',
-        icon: 'public/images_skills/springio-icon.svg',
+        icon: SpringIcon,
         featured: true
     },
     {
