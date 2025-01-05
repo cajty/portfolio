@@ -9,7 +9,7 @@ export function Navbar() {
 
   const handleDownloadCV = () => {
     // Replace this URL with your actual CV file URL
-    const cvUrl = '/public/belyamane_ayoub_JAVAANGULAR_JA.pdf (2).pdf';
+    const cvUrl = '../../../public/belyamane_ayoub_JAVAANGULAR_JA.pdf (2).pdf';
     window.open(cvUrl, '_blank');
   };
 
