@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Container } from '../layout/Container';
 import { motion } from 'framer-motion';
 import { Filter, Star } from 'lucide-react';
-import SpringIcon from '../public/images_skills/springio-icon.svg';
+import SpringIcon from '../../../public/images_skills/springio-icon.svg';
 
 const skills = [
     {
@@ -14,7 +14,7 @@ const skills = [
     {
         name: 'Angular',
         category: 'Frontend',
-        icon: 'public/images_skills/angular-icon.svg',
+        icon: '../../../public/images_skills/angular-icon.svg',
         featured: true
     },
     {
