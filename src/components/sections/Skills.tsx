@@ -2,118 +2,136 @@ import { useState } from 'react';
 import { Container } from '../layout/Container';
 import { motion } from 'framer-motion';
 import { Filter, Star } from 'lucide-react';
-import SpringIcon from '../public/images_skills/springio-icon.svg';
+import SpringIcon from '../../../public/images_skills/springio-icon.svg';
+import AngularIcon from '../../../public/images_skills/angular-icon.svg';
+import ReactIcon from '../../../public/images_skills/reactjs-icon.svg';
+import DockerIcon from '../../../public/images_skills/docker-icon.svg';
+import ElectronIcon from '../../../public/images_skills/electronjs-icon.svg';
+import FastAPIIcon from '../../../public/images_skills/fastapi-icon.svg';
+import PostmanIcon from '../../../public/images_skills/getpostman-icon.svg';
+import GitIcon from '../../../public/images_skills/git-scm-icon.svg';
+import JavaIcon from '../../../public/images_skills/java-icon.svg';
+import JavaScriptIcon from '../../../public/images_skills/javascript-icon.svg';
+import JenkinsIcon from '../../../public/images_skills/jenkins-icon.svg';
+import JiraIcon from '../../../public/images_skills/jira-3.svg';
+import LangchainIcon from '../../../public/images_skills/langchain.svg';
+import LaravelIcon from '../../../public/images_skills/laravel-icon.svg';
+import MySQLIcon from '../../../public/images_skills/mysql-icon.svg';
+import OllamaIcon from '../../../public/images_skills/ollama.svg';
+import PHPIcon from '../../../public/images_skills/php-icon.svg';
+import PostgreSQLIcon from '../../../public/images_skills/postgresql-icon.svg';
+import PythonIcon from '../../../public/images_skills/python-icon.svg';
+import TailwindCSSIcon from '../../../public/images_skills/tailwindcss-icon.svg';
+import VueIcon from '../../../public/images_skills/vuejs-icon.svg';
 
 const skills = [
     {
         name: 'Spring',
         category: 'Backend',
-
         icon: SpringIcon,
         featured: true
     },
     {
         name: 'Angular',
         category: 'Frontend',
-        icon: 'public/images_skills/angular-icon.svg',
+        icon: AngularIcon,
         featured: true
     },
     {
         name: 'React',
         category: 'Frontend',
-        icon: 'public/images_skills/reactjs-icon.svg',
+        icon: ReactIcon,
         featured: true
     },
     {
         name: 'Docker',
         category: 'DevOps',
-        icon: 'public/images_skills/docker-icon.svg'
+        icon: DockerIcon
     },
     {
         name: 'Electron',
         category: 'Desktop',
-        icon: 'public/images_skills/electronjs-icon.svg'
+        icon: ElectronIcon
     },
     {
         name: 'FastAPI',
         category: 'Backend',
-        icon: 'public/images_skills/fastapi-icon.svg'
+        icon: FastAPIIcon
     },
     {
         name: 'Postman',
         category: 'Tools',
-        icon: 'public/images_skills/getpostman-icon.svg'
+        icon: PostmanIcon
     },
     {
         name: 'Git',
         category: 'Tools',
-        icon: 'public/images_skills/git-scm-icon.svg'
+        icon: GitIcon
     },
     {
         name: 'Java',
         category: 'Backend',
-        icon: 'public/images_skills/java-icon.svg'
+        icon: JavaIcon
     },
     {
         name: 'JavaScript',
         category: 'Frontend',
-        icon: 'public/images_skills/javascript-icon.svg'
+        icon: JavaScriptIcon
     },
     {
         name: 'Jenkins',
         category: 'DevOps',
-        icon: 'public/images_skills/jenkins-icon.svg'
+        icon: JenkinsIcon
     },
     {
         name: 'Jira',
         category: 'Tools',
-        icon: 'public/images_skills/jira-3.svg'
+        icon: JiraIcon
     },
     {
         name: 'Langchain',
         category: 'AI',
-        icon: 'public/images_skills/langchain.svg'
+        icon: LangchainIcon
     },
     {
         name: 'Laravel',
         category: 'Backend',
-        icon: 'public/images_skills/laravel-icon.svg'
+        icon: LaravelIcon
     },
     {
         name: 'MySQL',
         category: 'Database',
-        icon: 'public/images_skills/mysql-icon.svg'
+        icon: MySQLIcon
     },
     {
         name: 'Ollama',
         category: 'AI',
-        icon: 'public/images_skills/ollama.svg'
+        icon: OllamaIcon
     },
     {
         name: 'PHP',
         category: 'Backend',
-        icon: 'public/images_skills/php-icon.svg'
+        icon: PHPIcon
     },
     {
         name: 'PostgreSQL',
         category: 'Database',
-        icon: 'public/images_skills/postgresql-icon.svg'
+        icon: PostgreSQLIcon
     },
     {
         name: 'Python',
         category: 'Backend',
-        icon: 'public/images_skills/python-icon.svg'
+        icon: PythonIcon
     },
-
     {
         name: 'TailwindCSS',
         category: 'Frontend',
-        icon: 'public/images_skills/tailwindcss-icon.svg'
+        icon: TailwindCSSIcon
     },
     {
         name: 'Vue.js',
         category: 'Frontend',
-        icon: 'public/images_skills/vuejs-icon.svg'
+        icon: VueIcon
     }
 ] as const;
 
