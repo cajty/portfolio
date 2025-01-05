@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Code, Database, Globe, Laptop, Github, Linkedin, Mail } from 'lucide-react';
-
+import photo from '../../../public/photo.jpg';
 export const Hero: React.FC = () => {
     const socialLinks = [
         { icon: Github, url: 'https://github.com/cajty', label: 'GitHub' },
@@ -150,7 +150,7 @@ export const Hero: React.FC = () => {
                             <div className="relative h-full p-3">
                                 <div className="relative h-full rounded-lg overflow-hidden">
                                     <img
-                                        src="../../../public/photo.jpg"
+                                        src={photo}
                                         alt="Belyamane Ayoub - Full Stack Developer"
                                         className="w-full h-full object-cover object-center"
                                     />
