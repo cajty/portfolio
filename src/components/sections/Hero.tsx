@@ -150,7 +150,7 @@ export const Hero: React.FC = () => {
                             <div className="relative h-full p-3">
                                 <div className="relative h-full rounded-lg overflow-hidden">
                                     <img
-                                        src="/public/photo.jpg"
+                                         src="../../../public/photo.jpg"
                                         alt="Belyamane Ayoub - Full Stack Developer"
                                         className="w-full h-full object-cover object-center"
                                     />
