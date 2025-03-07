@@ -8,8 +8,7 @@ export function Navbar() {
   const { isDark, toggle } = useDarkMode();
 
   const handleDownloadCV = () => {
-    // Replace this URL with your actual CV file URL
-    const cvUrl = '/belyamane_ayoub_JAVAANGULAR_JA.pdf';
+    const cvUrl = '/belyamaneAyoub_Java_Angular.pdf';
     window.open(cvUrl, '_blank');
   };
 
